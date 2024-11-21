@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Mali:wght@500&family=Pangolin&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+.logo-img {
+    width: 65px; /* Cambia el valor según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original */
+    cursor: pointer;
+    transition: margin-left 0.5s ease; /* Agrega una transición suave para el margen izquierdo */
+    margin-left: 150px;
+    margin-top: -75px;
+    margin-bottom: 15px;
+}
+.nombre-pagina h1{
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: "Pangolin", sans-serif;
+}
+.container-hero {
+    background-color: rgba(185, 171, 171, 0.541);
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 97;
+    height: 72px;
+    min-height: 72px;
+    z-index: 1000;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: rgba(148, 141, 141, 0.541);
+    padding: 15px 15px;
+    text-align: center; /* Centra el contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 4px rgba(207, 198, 198, 0.1); /* Sombra sutil */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-bar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos en la barra de navegación */
+}
+
+.nav-bar ul li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+.nav-bar ul li a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #fff; /* Color del texto blanco */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: bold; /* Fuente en negrita */
+    padding: 10px 20px; /* Relleno alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.nav-bar ul li a:hover {
+    background-color: #BF2A45; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos previos y estilos de nav-bar aquí... */
+
+#video-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.video-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}

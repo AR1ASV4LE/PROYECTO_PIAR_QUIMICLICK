@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Mali:wght@500&family=Pangolin&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+.logo-img {
+    width: 65px; /* Cambia el valor según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original */
+    cursor: pointer;
+    transition: margin-left 0.5s ease; /* Agrega una transición suave para el margen izquierdo */
+    margin-left: 150px;
+    margin-top: -75px;
+    margin-bottom: 10px;
+}
+.nombre-pagina h1{
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: "Pangolin", sans-serif;
+}
+.container-hero {
+    background-color: rgba(214, 208, 208, 0.541);
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 97;
+    height: 72px;
+    min-height: 72px;
+    z-index: 1000;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-container h2 {
+    margin-left: 10px; /* Espacio entre el logo y el texto */
+    font-size: 24px; /* Ajusta el tamaño del texto según tus necesidades */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-container span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(104, 102, 102, 0.301);
+}
+.title-container ion-icon {
+    margin-left: 900px; /* Empuja el icono de cerrar sesión hacia la derecha */
+    font-size: 40px;
+    position: relative;
+    top: -5px; /* Ajusta este valor para mover el icono hacia arriba o hacia abajo */
+}
+
+.icon-link ion-icon {
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.icon-link:active ion-icon {
+    transform: scale(1.2);
+    background-color: #031d38; /* Cambia el color según tu preferencia */
+    transition-delay: 0.10s; /* Añadir un pequeño retraso para el cambio */
+}
+
+.container-left{
+    background: #dddddd;
+    margin-right: 1000px;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 100px;
+    border-radius: 15px;
+
+}
+
+.container-left img {
+    width: 60px;
+    transform: translate(-55px, -50px);
+}
+
+.nombre-use{
+    margin-top: -130px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.correo{
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.correo span{
+    color: rgba(67, 67, 68, 0.486);
+}
+
+.telefono{
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.telefono span{
+    color: rgba(67, 67, 68, 0.486);
+}
+
+.ubicacion{
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ubicacion span{
+    color: rgba(67, 67, 68, 0.486);
+}
+
+
+
+/* Estilos para los botones de la barra lateral */
+.container-left button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container-left button ion-icon {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    font-size: 25px; /* Tamaño del icono */
+}
+
+.container-left button:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilo específico para cada botón */
+.boton1 {
+    background-color: #a7a49e;
+
+}
+
+.boton1:hover {
+    background-color: #a7a49e;
+}
+
+.boton2 {
+    background-color: #a7a49e;
+
+}
+
+.boton2:hover {
+    background-color: #a7a49e;
+}
+
+.boton3 {
+    background-color: #a7a49e;
+}
+
+.boton3:hover {
+    background-color: #a7a49e;
+}
+.container-right{
+    margin-left: 400px;
+    margin-right: 50px;
+    background: #dddddd;
+    margin-top: -560px;
+    border-radius: 15px;
+}
+
+.container-right h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: -170px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+
+}
+
+.container-right h5{
+    padding-bottom: 50px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3f4254;
+
+}
+
+.container-right img{
+    width: 150px;
+    margin-left: 400px;
+    margin-top: -50px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+
+.container-right h6{
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #3f4254;
+}
+
+.container-right .form-perfil{
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.container-right .form-perfil label{
+    margin-left: 100px;
+    margin-right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3f4254;
+}
+
+.container-right .form-perfil h4{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+} 
+
+/* Selecciona los inputs dentro de .container-right .form-perfil y aplica los estilos */
+.container-right .form-perfil input {
+    padding: 15px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes con color */
+    box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho y alto del elemento */
+    font-size: 16px; /* Tamaño de la fuente */
+    outline: none; /* Sin contorno al enfocar */
+    width: calc(50% - 10%);/* Ajuste del ancho */
+    margin-left: -120px;
+    
+}
+
+/* Opcional: Estilo para el input enfocado */
+.container-right .form-perfil input:focus {
+    border-color: #66afe9; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6); /* Sombra al enfocar */
+    
+}
+
+/* Estilos para los elementos select */
+.container-right .form-perfil select {
+    padding: 15px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes con color */
+    box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho y alto del elemento */
+    font-size: 16px; /* Tamaño de la fuente */
+    outline: none; /* Sin contorno al enfocar */
+    width: calc(50% - 10%); /* Ajuste del ancho */
+    appearance: none; /* Elimina los estilos predeterminados del select */
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNCIgaGVpZ2h0PSI2IiB2aWV3Qm94PSIwIDAgNCA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yIDBMMCAyaDIuMTE1TDQgMC43MzJMMiAwek0yIDZMMCA0SDIuMTE1TDQgNS4yNzJMMiA2eiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==') no-repeat right 10px center; /* Flecha de dropdown */
+    background-color: #fff; /* Color de fondo */
+    margin-left: -200px;
+}
+
+/* Opcional: Estilo para el select enfocado */
+.container-right .form-perfil select:focus {
+    border-color: #66afe9; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6); /* Sombra al enfocar */
+}
+
+/* Estilos para los botones de acción */
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* Espaciado entre los botones */
+    margin-top: -110px; /* Espaciado superior */
+    margin-right: 310px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.action-buttons .guardar {
+    padding: 10px 20px;
+    background-color:rgb(28, 117, 219); /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #253ece; /* Borde con color */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+.action-buttons .guardar:hover {
+    background-color: #031d38; /* Color de fondo al pasar el ratón */
+}
+
+.action-buttons .cancelar {
+    padding: 10px 20px;
+    background-color: rgb(28, 117, 219); /* Color de fondo */
+    color:white;
+    border: 1px solid #253ece; /* Borde con color */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+.action-buttons .cancelar:hover {
+    background-color: #031d38; /* Color de fondo al pasar el ratón */
+}
+.fin-inicio {
+    text-align: center;
+    color: #c0c3d7;
+    background: #30344c;
+    margin-bottom: 0px;
+}
+
+.fin-inicio p {
+    margin-left: 100px; /* Asegúrate de que este margen sea necesario */
+}
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Mali:wght@500&family=Pangolin&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+/* Otros estilos */
+.logo-img {
+    width: 65px;
+    height: auto;
+    cursor: pointer;
+    transition: margin-left 0.5s ease;
+    margin-left: 150px;
+    margin-top: -75px;
+    margin-bottom: 10px;
+}
+
+.nombre-pagina h1 {
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Pangolin', sans-serif;
+}
+
+.container-hero {
+    background-color: rgb(136, 130, 130); /* Cambia la opacidad a 1 para asegurar que cubra */
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000; /* Asegúrate de que el z-index sea alto */
+    height: 72px;
+    min-height: 72px;
+}
